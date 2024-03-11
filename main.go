@@ -10,10 +10,10 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 )
 
-var server = "localhost"
+var server = "107.0.0.1"
 var port = 3306
-var user = "root"
-var password = "Sof_2010!"
+var user = "appuser"
+var password = "Sofsof123"
 var database = "passwords"
 
 var db *sql.DB
